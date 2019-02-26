@@ -9,30 +9,31 @@ h1 {
 }
 
 .headBar {
-    align: auto;
     position: fixed;
     top: 0;
     width: 960px;
     overflow: hidden;
     background: gray;
     display: inline;
+    float: left;
 }
 
 #titleName {
     display: inline-block;
-    vertical-align: center;
+    float: left;
 }
 
 .headBar a {
     float: right;
     text-align: center;
+    padding: 10px;
+    vertical-align: center;
 }
 
 #navLinks {
-    display: inline;
-    vertical-align: center;
-    float: right;
+    float: left;
     padding: 10px;
+    height: 100%;
 }
 
 #aboutMe {
