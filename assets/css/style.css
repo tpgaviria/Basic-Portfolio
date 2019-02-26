@@ -1,0 +1,76 @@
+body {
+    width: 960px;
+    margin: auto;
+}
+
+h1 {
+    float: left;
+    padding-left: 20px;
+}
+
+.headBar {
+    align: auto;
+    position: fixed;
+    top: 0;
+    width: 960px;
+    overflow: hidden;
+    background: gray;
+    display: inline;
+}
+
+#titleName {
+    display: inline-block;
+    vertical-align: center;
+}
+
+.headBar a {
+    float: right;
+    text-align: center;
+}
+
+#navLinks {
+    display: inline;
+    vertical-align: center;
+    float: right;
+    padding: 10px;
+}
+
+#aboutMe {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+}
+
+.contentBox {
+    width: 800px;
+    margin: 80px auto 100px auto;
+}
+
+#floatedImg {
+    float: left;
+    padding: 10px;
+}
+
+#portfolio {
+    margin : 10px auto 0 auto;
+    padding: 10px;
+}
+
+.portfolioLink {
+    float: left;
+    margin: 10px;
+    display: inline-block;
+    height: 200px;
+}
+
+img {
+    height: 200px;
+}
+
+.footerBar {
+    position: fixed;
+    bottom: 0;
+    width: 960px;
+    background: gray;
+    text-align: center;
+
+}
