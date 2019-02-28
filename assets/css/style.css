@@ -115,10 +115,12 @@ hr {
 .footerContent {
     position: absolute;
     bottom: 0;
+    display: inline-block;
 }
 
 .footerContent p {
     margin-bottom: 0px;
+    text-align: center;
 }
 
 .projectsContainer {
