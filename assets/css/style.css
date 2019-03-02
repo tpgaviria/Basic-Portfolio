@@ -105,7 +105,7 @@ hr {
     width: 100%;
     height: 50px;
     background: #666;
-    border-top: #4aaaa5 8px solid;
+    border-top: 8px #4aaaa5 solid;
     text-align: center;
     color: #d3d3d3;
     font-size: 8pt;
@@ -136,7 +136,7 @@ hr {
     color: white;
     width: 250px;
     height: 170px;
-    margin: 10px;
+    margin: 20px;
     float: left;
 }
 
