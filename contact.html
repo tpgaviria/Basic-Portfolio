@@ -24,13 +24,18 @@
         <h2>Contact</h2>
         <hr>
         <form>
-            <p class="">Name</p><br>
-            <input type="text" name="name"><br>
-            <p class="">Email</p><br>
-            <input type="text" name="email"><br>
-            <p class="">Message</p><br>
-            <input type="text" name="message" id="messageInput"><br><br>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+            <label for="Message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
             <input type="submit" value="Submit">
+
+        </form>
     </div>
 
     <div class="footerBar">

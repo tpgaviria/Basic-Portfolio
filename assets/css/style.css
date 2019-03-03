@@ -24,7 +24,7 @@ h1 {
     float: left;
     margin-left: 0px;
     background: #4aaaa5;
-    padding: 20px;
+    padding: 25px;
     color: white;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -62,7 +62,7 @@ h1 {
     width: 908px;
     border: 1px solid #ddd;
     background: white;
-    padding: 15px 25px 25px 25px;
+    padding: 30px;
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
@@ -89,9 +89,7 @@ img {
     height: 272px;
 }
 
-img.portfolioImage {
-    width: 100%;
-}
+
 
 hr {
     border: 1.5px solid #e4e4e4;
@@ -113,18 +111,17 @@ hr {
 }
 
 .footerContent {
-    position: absolute;
     bottom: 0;
-    display: inline-block;
+    
 }
 
-.footerContent p {
+p.footerContent  {
     margin-bottom: 0px;
     text-align: center;
 }
 
 .projectsContainer {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 70%;
     z-index: 2;
     overflow: hidden;
@@ -136,7 +133,7 @@ hr {
     color: white;
     width: 250px;
     height: 170px;
-    margin: 20px;
+    margin: 20px 40px 20px 0px;
     float: left;
 }
 
@@ -156,4 +153,36 @@ hr {
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #62e2dc;
+  }
+
+form {
+    padding-top: 15px;
 }
